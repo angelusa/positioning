@@ -81,36 +81,34 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr ;
-  grid-column-gap: 5px;
+  grid-column-gap: 200px;
 
 }
 .red3 {
-  width: 100px; 
+  width: 100%; 
   height: 100px; 
   background-color: red;
-  width: 100%;
   grid-column: 1/3;
 
 
 } 
 .green3 {
-  width: 200px; 
-  height: 200px; 
+  width: 300px; 
+  height: 300px; 
   background-color: green;
 
 } 
 .yellow3 {
-  width: 200px; 
-  height: 200px; 
+  width: 300px; 
+  height: 300px; 
   background-color: gold; 
 
 }
 
 .blue3 {
-  width: 100px;
+  width: 100%;
   height: 100px; 
   background-color: blue; 
-  width: 100%;
   grid-column: 1/3;
  
 
